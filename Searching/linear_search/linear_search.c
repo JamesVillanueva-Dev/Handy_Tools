@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
  * Finds the index of the target
  * 
@@ -16,13 +14,4 @@ int linearSearch(int target, int* list, int listSize){
         }
     }
     return -1;
-}
-
-
-int main(){
-    int list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
-    int target = 8;
-    int listSize = 12;
-    printf("The index of the value %d in the list is %d\n", target, linearSearch(target, list, listSize));
-    return 0;
 }
